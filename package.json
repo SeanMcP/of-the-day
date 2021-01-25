@@ -1,0 +1,37 @@
+{
+  "name": "of-the-day",
+  "version": "1.0.0",
+  "description": "A utility to return items from a shuffled list based on the ISO day",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanmcp/of-the-day.git"
+  },
+  "keywords": [
+    "seeded-shuffle",
+    "shuffle",
+    "knuth-shuffle",
+    "of-the-day",
+    "de-jure"
+  ],
+  "author": {
+    "email": "sean@seanmcp.com",
+    "name": "Sean McPherson",
+    "url": "https://seanmcp.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanmcp/of-the-day/issues"
+  },
+  "homepage": "https://github.com/seanmcp/of-the-day#readme",
+  "dependencies": {
+    "knuth-shuffle-seeded": "^1.0.6"
+  },
+  "devDependencies": {
+    "uvu": "^0.5.1"
+  }
+}
