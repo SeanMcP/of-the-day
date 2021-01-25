@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A utility to return items from a shuffled list based on the ISO day",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "node index.test.js"
   },
