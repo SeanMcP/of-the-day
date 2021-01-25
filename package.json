@@ -7,7 +7,9 @@
     "index.js"
   ],
   "scripts": {
-    "test": "node index.test.js"
+    "test": "node index.test.js",
+    "preversion": "npm test",
+    "postversion": "git push --tags"
   },
   "type": "module",
   "repository": {
